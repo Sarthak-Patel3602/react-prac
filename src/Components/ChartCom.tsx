@@ -151,7 +151,7 @@ const ChartCom = () => {
   }
 
   return (
-    <div className="max-w-[1500px] mx-auto">
+    <div className="max-w-375 mx-auto">
       <h2>Gujarat COVID-19 Statistics</h2>
       <p>Data date: {gujaratData.meta.date ?? "Not available"}</p>
 
