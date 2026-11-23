@@ -1,12 +1,13 @@
 import { Link } from "react-router";
+import { TbError404 } from "react-icons/tb";
 
 const NotFound = () => {
   return (
     <main className="flex min-h-[calc(100vh-136px)] items-center justify-center bg-gray-50 px-6 py-16">
       <div className="w-full max-w-xl text-center">
         {/* Error Code */}
-        <h1 className="text-8xl font-extrabold tracking-tight text-orange-600 sm:text-9xl">
-          404
+        <h1 className="text-8xl font-extrabold tracking-tight text-orange-600 sm:text-9xl text-center max-w-[128px] mx-auto">
+          <TbError404 />
         </h1>
 
         {/* Heading */}
