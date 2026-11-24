@@ -10,7 +10,11 @@ function App() {
   return (
     <>
       {!hideLayout && <Header />}
-      <AppRoutes />
+      <div className="bg-gray-100">
+        <div className="container mx-auto">
+          <AppRoutes />
+        </div>
+      </div>
       {!hideLayout && <Footer />}
     </>
   );

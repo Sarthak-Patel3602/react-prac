@@ -39,7 +39,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-212.5 mx-auto my-4 space-y-4 rounded-lg border p-6"
+      className="max-w-212.5 mx-auto py-4 space-y-4 rounded-lg border p-6"
     >
       <h2 className="text-2xl font-bold">Contact Form</h2>
 

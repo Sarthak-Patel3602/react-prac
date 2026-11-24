@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Chartdata from "../pages/Chartdata";
 import Login from "../pages/Login";
 import ProtectedRoute from "./ProtectedRoute";
+import Order from "../pages/Order";
 
 const AppRoutes = () => {
   return (
@@ -13,6 +14,9 @@ const AppRoutes = () => {
       <Route path="/login" element={<Login />} />
       <Route element={<ProtectedRoute />}>
         <Route path="/" element={<Home />} />
+      </Route>
+      <Route element={<ProtectedRoute />}>
+        <Route path="/order" element={<Order />} />
       </Route>
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />

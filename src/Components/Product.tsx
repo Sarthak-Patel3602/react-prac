@@ -29,10 +29,10 @@ const Product = () => {
 
   return (
     <>
-      <div className="container mx-auto px-4 py-4 sm:px-6 mt-3 lg:px-8">
+      <div className="container mx-auto px-4 py-4 sm:px-6 pt-3 lg:px-8">
         <h1 className="font-bold text-2xl">All Products</h1>
       </div>
-      <div className="container mb-9 mx-auto px-4 py-4 sm:px-6 lg:px-8 pb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="container pb-9 mx-auto px-4 py-4 sm:px-6 lg:px-8 pb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
           <div key={product.id} className="border rounded-lg p-4 shadow-sm">
             <img
